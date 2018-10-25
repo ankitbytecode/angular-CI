@@ -24,7 +24,7 @@ script:
 
 deploy:
   provider: heroku
-  api_key: ce804646-ad34-4ef1-851e-ca98a714188f
+  api_key: 7ece6457-b947-437e-903c-ff133e2a5c7a
   app: angular-ci-app
   skip_cleanup: true
   github_token: 9b20c8c27b586eaf77099d2d9e74aab1b2acf8e9
