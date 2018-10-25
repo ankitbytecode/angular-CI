@@ -27,6 +27,6 @@ deploy:
   app: angular-ci-app
   skip_cleanup: true
   github_token: 9b20c8c27b586eaf77099d2d9e74aab1b2acf8e9
-  local_dir: dist/angular-ci-app
+  local_dir: dist/
   on:
     branch: master
