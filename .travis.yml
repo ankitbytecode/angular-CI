@@ -13,14 +13,15 @@ cache:
     - node_modules
 
 install:
-  - npm install -g yarn
+  - npm install -g @angular/cli
+  - npm install --save-dev @angular-devkit/build-angular
 
-before_script: # commands to run before the build step
-   - npm install -g --silent @angular/cli
+# before_script: # commands to run before the build step
+#    - npm install -g @angular/cli
 
 script:
   - ng build --prod
-  
+
 deploy:
   provider: heroku
   skip_cleanup: true
