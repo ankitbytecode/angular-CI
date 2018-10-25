@@ -15,6 +15,9 @@ cache:
 install:
   - npm install -g yarn
 
+before_script: # commands to run before the build step
+   - npm install -g --silent @angular/cli
+
 script:
   - yarn lint
   - yarn build --base-href https://ankitbytecode.github.io/angular-CI/
