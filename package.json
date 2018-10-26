@@ -8,10 +8,8 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "install": "npm install express",
-    "postinstall": "ng build --prod"   
-    
+    "e2e": "ng e2e",    
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
     "core-js": "^2.5.4",
+    "express": "^4.16.4",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
   },
