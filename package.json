@@ -9,6 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "install": "npm install express",
     "postinstall": "ng build --prod"   
     
   },
