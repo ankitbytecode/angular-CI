@@ -14,13 +14,13 @@ const path = require('path');
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, '/dist/angular-ci/')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname + '/dist/angular-ci/index.html'));
-});
+  res.sendFile(path.join(__dirname + '/dist/angular-ci/'));
+}); 
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 app.set('port', port);
 
 const server = http.createServer(app);
